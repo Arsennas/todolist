@@ -1,0 +1,80 @@
+body{
+  background-color: darkblue;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.header h1{
+color: #fff;
+}
+.output h1{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.label{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 17px;
+}
+.label select{
+  border: none;
+}
+.input-main{
+  display: flex;
+  justify-content: center;
+}
+.input-main input{
+  border: none;
+}
+.input-main button{
+  border: none;
+  color: #fff;
+  background-color: crimson;
+}
+.todolist{
+  margin-top: 20px;
+}
+.todoList3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todoList3  span {
+  color: white;
+}
+
+.todolist1{
+  background-color: gray;
+  color: #fff;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.todolist button{
+  background-color: #fff;
+}
+/* .input-lab{
+  background-color: gray;
+  width: 300px;
+  height: 30px;
+} */
+.done-not{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.done-not h1{
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
